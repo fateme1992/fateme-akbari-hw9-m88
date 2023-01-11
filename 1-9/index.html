@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+
+    <script src="https://code.jquery.com/jquery-3.6.3.min.js"
+        integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
+
+    <title>Document</title>
+</head>
+
+<body>
+    <main>
+        <table>
+            <thead>
+            </thead>
+            <tbody></tbody>
+        </table>
+
+        <!-- Trigger/Open The Modal -->
+        <button id="myBtn" onclick="openModal()">Open Modal</button>
+
+        <!-- The Modal -->
+        <div id="myModal" class="modal">
+
+            <!-- Modal content -->
+            <div class="modal-content">
+                <span class="close" onclick="closeModal()">&times;</span>
+                <strong class="modalHeader"></strong>
+                <div class="modalContent"></div>
+                <div class="modalFooter"></div>
+            </div>
+
+        </div>
+    </main>
+</body>
+
+<script src="userData.js"></script>
+<script src="modal.js"></script>
+<script src="main.js"></script>
+
+</html>

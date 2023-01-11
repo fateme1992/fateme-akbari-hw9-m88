@@ -1,0 +1,13 @@
+body{
+    display: flex;
+    justify-content: center;
+}
+
+div{
+    width: 70%;
+    min-height: 200px;
+    background-color: green;
+    color: white;
+    padding: 10px;
+    border: 4px solid #000;
+}
